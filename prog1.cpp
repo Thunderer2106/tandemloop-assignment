@@ -6,7 +6,6 @@ using namespace std;
 class Calc {
 public:
     Calc(double x, double y) : x(x), y(y) {}
-
     double operate(const string& op) {
         if (op == "add") {
             return x + y;
